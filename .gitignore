@@ -16,6 +16,6 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
-settings.py
+projectmanager/settings.py
 .gitignore
 db.sqlite3
