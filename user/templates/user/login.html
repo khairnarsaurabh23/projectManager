@@ -1,0 +1,14 @@
+<!-- template for login page -->
+{% extends "user/register_login.html" %}
+
+{% block content %}
+	<form method="post" class="container">
+		{% csrf_token %}
+		{{form.as_p}}
+
+		<button class="btn" type="submit">Login</button>
+	</form>	
+	<br><br>
+
+	<p class="container">If you don't alredy have an account, <a href="/register">Register</a></p>
+{% endblock %}
